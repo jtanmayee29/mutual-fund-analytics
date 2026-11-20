@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 # MFAPI endpoint for HDFC Top 100
-url = "https://api.mfapi.in/mf/125497"
+url = "https://api.mfapi.in/mf/119018"
 
 # Fetch API response
 response = requests.get(url, timeout=30)
@@ -36,11 +36,7 @@ df["scheme_name"] = scheme_name
 output_folder = "DATA/RAW"
 os.makedirs(output_folder, exist_ok=True)
 
-output_path = os.path.join(
-    output_folder,
-    "live_nav_125497.csv"
-)
-
+output_path = os.path.join(output_folder, "live_nav_119018.csv")
 df.to_csv(output_path, index=False)
 
 # Display results

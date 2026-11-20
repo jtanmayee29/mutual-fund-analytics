@@ -1,0 +1,6 @@
+AMFI SCHEME CODE VALIDATION REPORT
+========================================
+Fund Master unique codes: 40
+NAV History unique codes: 40
+Matching codes: 40
+Missing codes: 0
